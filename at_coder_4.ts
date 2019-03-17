@@ -1,4 +1,4 @@
-function main(input: string) {
+function main(input: string): void {
   const inputNumbers: number[] = input.split('\n').map(n => parseInt(n, 10))
 
   const A: number = inputNumbers[0]
